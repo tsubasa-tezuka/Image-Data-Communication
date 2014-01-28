@@ -7,8 +7,8 @@ import java.net.Socket;
 public class Send extends Thread{
 	public void run() {
 		try {
-			//IPアドレスとポート番号指定
-			String server = "192.168.1.3";
+		//IPアドレスとポート番号指定
+		String server = "192.168.1.3";
     		int servPort = 5000;
     		
     		//ソケット作成
