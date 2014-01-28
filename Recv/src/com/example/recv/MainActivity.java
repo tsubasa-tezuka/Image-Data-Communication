@@ -30,7 +30,7 @@ public class MainActivity extends Activity implements OnClickListener{
     }
     
     public void onClick(View v) {
-    	//受信開始
+    	//画像データ受信開始
     	new Recv(this, handler).start();
     }
 }
